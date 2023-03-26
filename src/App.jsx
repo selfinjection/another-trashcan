@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import Automation from './components/Automation'
+import Empower from './components/Empower'
 import Footer from './components/Footer'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Hero />
-      <Automation />
+      <Empower />
       <Payments />
       <Footer />
     </div>  

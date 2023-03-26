@@ -1,0 +1,136 @@
+/* EMPOWER INTRO */
+
+.empower__intro h1 {
+    color: #333333;
+    text-align: center;
+    font-size: 52px;
+    font-weight: 400;
+    line-height: 65px;
+    margin-bottom: 47px;
+}
+
+.empower__intro {
+    margin-bottom: 50px;
+}
+
+.empower_wrapper {
+    background: #F5F4F2;
+}
+
+.empower__intro_buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.empower__intro_buttons_button:hover {
+    cursor: pointer;
+}
+
+.empower__intro_buttons_button {
+    line-height: 30px;
+    font-size: 16px;
+    letter-spacing: 2.32px;
+    color: #7A858A;
+    padding: 15px 25px;
+    background-color: white;
+    border: 1px solid #AAB8BF;
+    border-radius: 6.8px;
+}
+
+.empower__intro_buttons {
+    margin: 0 35px;
+}
+
+/* EMPOWER CARD */
+.empower__solutions_card_image {
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.empower__solutions_card_content_wrapper {
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.empower__solutions_card_content:not(h2) {
+    padding-right: 120px;
+}
+
+.empower__solutions_card_content h2 {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2.32px;
+    color: #574D9C;
+    font-weight: 400;
+    margin-bottom: 97px;
+    padding-top: 33px;
+    border-top: 1px #C9D3D9 solid;
+}
+
+.empower__solutions_card_content h1 {
+    margin-bottom: 32px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #363B3D;
+}
+
+.empower__solutions_card_content p {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+    margin-bottom: 42px;
+    color: #636769;
+}
+
+.empower__solutions_card {
+    border-radius: 19px 19px 0 0;
+    background-color: white;
+}
+
+.empower__solutions_card_container {
+    display: flex;
+    padding-bottom: 85px;
+    border-bottom: 1px #C9D3D9 solid;
+
+}
+
+/* EMPOWER ICONS */
+
+.empower__solutions_card_icons {
+    margin: 70px 0;
+}
+
+.empower__solutions_card_icons {
+    justify-content: space-between;
+    display: flex;
+}
+
+.empower__solutions_card_icons_item p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+
+    /* or 135% */
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #6157AB;
+    }
+
+.empower__solutions_card_icons_item_img {
+    width: 65px;
+    height: 65px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    background-color: #574D9C;
+}
+
+.empower__solutions_card_icons_item_img img {
+    position: relative; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
