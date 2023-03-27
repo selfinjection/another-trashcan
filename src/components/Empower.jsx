@@ -76,10 +76,73 @@ const Empower = () => {
                   <div className={styles.empower__company_button}>
                     <a href="#">Learn More</a>
                   </div>
-                </div>
+                </div>      
               </div>
               <div className={styles.empower__company_image}>
                 <img src='src/assets/company_image.png' alt='company image' />
+              </div>
+            </div>
+          </div>
+          <div className={styles.empower__company_stats}>
+            <div className={styles.empower__company_stats_item}>
+              <h1>
+                7,000+
+              </h1>
+              <p>HOMES PURCHASED</p>
+            </div>
+            <div className={styles.empower__company_stats_item}>
+              <h1>
+                30,000+
+              </h1>
+              <p>AGENTS</p>
+            </div>
+            <div className={styles.empower__company_stats_item}>
+              <h1>
+              $5 B+
+              </h1>
+              <p>Buying Power</p>
+            </div>
+          </div>
+        </section>
+
+        <section className={styles.company__solutions}>
+          <h1>Our solutions</h1>
+          <div className={styles.company__solutions_buttons}>
+            <p>Turn an offer to all cash</p>
+            <p>Buy before you sell</p>
+            <p>Save an existing deal</p>
+          </div>
+          <div className={styles.company__solutions_content}>
+            <div className={styles.company__solutions_content_card}>
+              <div className={styles.company__solution_content_card_info}>
+                <div className={styles.company__solutions_content_card_img}>
+                  <div className={styles.company__solutions_content_card_img_container}>
+                    <p className={styles.company__solutions_content_card_img_country}>ORLANDO, FL</p>
+                  </div>
+                </div>
+                <div className={styles.company__solutions_another_content}>
+                  <div className={styles.company__solution_another_content_lines}>
+                    <div className={styles.company__solutions_line}></div>
+                    <h1>home won with</h1>
+                    <div className={styles.company__solutions_line}></div>
+                  </div>
+                  <div className={styles.company__solutions_icons}>
+                    <img src='src/assets/logo/123_logo.png' alt='prot logo'/>
+                  </div>
+                </div>
+                <div className={styles.company__solutions_buyers}>
+                  <div className={styles.company__solutions_buyer}>
+                    <p>The buyer</p>
+                    <p className={styles.company__solution_desc}>won her dream house in multiple-offers situation.</p>
+                  </div>
+                  <div className={styles.company__solutions_seller}>
+                    <p>The seller</p>
+                    <p className={styles.company__solution_desc}>got a guaranteed closing with no contingencies.</p>
+                  </div>
+                </div>
+              </div>
+              <div className={styles.company__solutions_description_card}>
+                description
               </div>
             </div>
           </div>

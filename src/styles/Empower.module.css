@@ -140,7 +140,7 @@
 /* EMPOWER COMPANY */
 
 .empower__company {
-    padding: 75px 0;
+    padding: 70px 0;
 }
 
 .empower__company_intro h1 {
@@ -241,4 +241,171 @@
     text-align: center;
     color: #363B3D; 
     margin-bottom: 41px;
+}
+
+.empower__company_stats {
+    margin: 40px 93px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.empower__company_stats_item h1 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 69px;
+    line-height: 104px;
+    color: #323A5B;
+}
+
+.empower__company_stats_item p {
+    text-align: center;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #323A5B;
+}
+
+/* Company solutions */
+
+.company__solutions {
+    background: #574D9C;
+    padding: 72px;
+}
+
+.company__solutions h1 {
+    margin-bottom: 54px;
+    font-weight: 400;
+    font-size: 51px;
+    line-height: 65px;
+    text-align: center;
+    letter-spacing: 0.675px;
+    color: #FFFFFF;
+}
+
+.company__solutions_buttons {
+    margin: 0 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: ;
+}
+
+.company__solutions_buttons p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 2.32px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 15px 31px;
+    border: 1px white solid;
+    border-radius: 6.8px;
+}
+
+.company__solutions_content_card {
+    display: flex;
+    margin: 0 164px;
+    background: white;
+    border-radius: 12px;
+    padding: 35px;
+}
+
+.company__solution_content_card_info {
+    flex-basis: 0;
+    flex: 1;
+}
+.company__solutions_description_card {
+    flex-basis: 0;
+    flex: 1
+}
+
+.company__solutions_content_card_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.company__solutions_content_card_img_container {
+    position: relative;
+    width: 324px;
+    height: 175px;
+    background-size: cover;
+    background-image: url('src/assets/solutions_img.png');
+}
+
+.company__solution_content_card_info h1 {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 30px;
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+    color: #363B3D;
+}
+
+.company__solutions_content_card_img_country {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    
+    color: white;
+    position: absolute;
+    padding: 8px 18px;
+    background: #333333;
+    bottom: 0px;
+    right: 0px;
+}
+
+.company__solution_another_content_lines {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.company__solutions_line {
+    display: block;
+    width: 80px;
+    height: 1px;
+    background-color: #C7C1F3;
+    flex-basis: 0;
+    flex: 1;
+}
+
+.company__solution_another_content_lines h1 {
+    margin: 0 20px
+}
+
+.company__solutions_icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.company__solutions_icons {
+    margin-bottom: 30px;
+    padding: 30px 0;
+    border-bottom: 1px #C7C1F3 solid;
+}
+
+.company__solutions_buyers {
+    display: flex;
+    flex-direction: column;
+}
+.company__solutions_buyers > *:not(:last-child) {
+    margin-bottom: 40px;
+}
+.company__solutions_buyers > * {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.company__solution_desc {
+    flex-basis: 0;
+    flex: 1;
+    text-align: center;
 }
