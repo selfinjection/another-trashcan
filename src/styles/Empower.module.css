@@ -1,4 +1,7 @@
 /* EMPOWER INTRO */
+.empower__intro_section {
+    padding-top: 75px;
+}
 
 .empower__intro h1 {
     color: #333333;
@@ -134,3 +137,108 @@
     transform: translate(-50%, -50%);
 }
 
+/* EMPOWER COMPANY */
+
+.empower__company {
+    padding: 75px 0;
+}
+
+.empower__company_intro h1 {
+    margin-bottom: 72px;
+    color: #323A5B;
+    font-size: 51px;
+    font-weight: 400;
+    line-height: 65px;
+    letter-spacing: 0.675000011920929px;
+    text-align: center;
+}
+
+.empower__company {
+    background: #E3E6F9;
+}
+
+.empower__company_intro_wrapper {
+    margin: 0 63px;
+    display: flex;
+    border-bottom: 1px #B2A9EF solid;
+    padding-bottom: 68px;
+}
+
+
+.empower__company_content {
+    padding: 0 80px;
+    flex-basis: 0;
+    flex: 1;
+}
+
+.empower__company_content h1 {
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0.004999999888241291px;
+    text-align: center;
+    color: #1E2224;
+    margin-bottom: 11px;
+}
+
+.empower__company_content_author {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.empower__company_content_author img {
+    margin-right: 14px;
+}
+
+.empower__company_image img {
+    width: 479px;
+    height: 491px;
+}
+
+.empower__company_image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 0;
+    flex: 1;
+}
+
+.empower__company_button {
+    text-align: center; 
+}
+
+.empower__company_button a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 13px 25px;
+    background: white;
+    color: #574D9C;
+    border: 1px #574D9C solid;
+    border-radius: 5px;
+}
+
+.emopwer__company_author_name {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #636769;
+}
+
+.empower__company_author_company {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #636769;
+}
+
+.empower__company_content_description p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #363B3D; 
+    margin-bottom: 41px;
+}
