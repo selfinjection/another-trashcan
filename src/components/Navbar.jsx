@@ -1,17 +1,13 @@
-import React from 'react'
-import styles from '../styles/Navbar.module.css'
-import ui from '../styles/UI-components.module.css'
-
 const Navbar = () => {
   return (
-    <div className={styles.navbar_wrapper}>
-        <div className={`${styles.navbar} container`}>
-            <a href='/' className={styles.navbar__link}>Agents</a>
-            <a href='/' className={styles.navbar__link}>HomeBuyers</a>
-            <a href='/' className={styles.navbar__link}>Resources</a>
-            <a href='/' className={styles.navbar__link}>Log In</a>
-            <a href='/' className={ui.button}>Sign Up Now</a>
-        </div>
+    <div className="navbar">
+        <div className="navbar-container">
+            <a className="navbar-item-1" href="javascript:void(0)">Agents</a>
+            <a className="navbar-item-2" href="javascript:void(0)">Homebuyers</a>
+            <a className="navbar-item-3" href="javascript:void(0)">Resources</a>
+            <a className="navbar-item-4" href="javascript:void(0)">Log In</a>
+            <a className="navbar-item-5 button" href="javascript:void(0)">Sign up now</a>
+        </div> 
     </div>
   )
 }

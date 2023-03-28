@@ -1,36 +1,29 @@
-import React from 'react'
-import styles from '../styles/Hero.module.css'
-import ui from '../styles/UI-components.module.css'
-
 const Hero = () => {
   return (
-    <div className={styles.hero_wrapper}>
-        <div className={`${styles.hero} container`}>
-            <div className={styles.hero__info}>
-                <div className={styles.hero__info_content}>
+    <section className="hero-section content-padding">
+        <div className="hero">
+            <div className="hero-content">
+                <div className="hero-content_description">
                     <h1>Providing certainty on the journey to homeownership.</h1>
                     <p>Guarantee your home closes with cash-backed, contingency-free offers for buyers, sellers, their agents, and loan officers.</p>
-                    <div className={styles.hero__info_buttons}>
-                        <a href='#' className={ui.button}>Sign Up Now</a>
-                        <a href='#' className={styles.hero__info_learn_more}>Learn more</a>
+                    <div className="hero-content_buttons">
+                        <a href="javascript:void(0)" className="button">Sign up now</a>
+                        <a href="javascript:void(0)" className="button-ext">Learn more</a>
                     </div>
                 </div>
-                <div className={styles.hero__info_icons}>
-                    <p>FEATURED IN</p>
-                    <div className={styles.hero__info_icons_list}>
-                        <img src='src/assets/logo/tc_logo.png' alt='logo' />
-                        <img src='src/assets/logo/inman_logo.png' alt='logo' />
-                        <img src='src/assets/logo/atc_logo.png' alt='logo' />
-                        <img src='src/assets/logo/ut_logo.png' alt='logo' />
-                        <img src='src/assets/logo/wsj_logo.png' alt='logo' />
-                    </div>
+                <div className="hero-content_icons">
+                    <img src="/src/assets/icons/atc_logo.png"></img>
+                    <img src="/src/assets/icons/atc_logo.png"></img>
+                    <img src="/src/assets/icons/atc_logo.png"></img>
+                    <img src="/src/assets/icons/atc_logo.png"></img>
+                    <img src="/src/assets/icons/atc_logo.png"></img>
                 </div>
             </div>
-            <div className={styles.hero__image}>
-                <img src='/src/assets/bg-image.png' alt='123'/>
+            <div className="hero-content_image">
+                <img src="/src/assets/imgs/bg-image.png" />
             </div>
         </div>
-    </div>
+    </section>
   )
 }
 

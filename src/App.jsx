@@ -1,21 +1,18 @@
 import { useState } from 'react'
-import './App.css'
-import Empower from './components/Empower'
-import Footer from './components/Footer'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
-import Payments from './components/Payments'
+import './styles/_global.scss'
 
-function App() {
+export default function App() {
+
   return (
-    <div className="App">
-      <Navbar />
-      <Hero />
-      <Empower />
-      <Payments />
-      <Footer />
-    </div>  
+    <div className="app container">
+      <header>
+        <Navbar />
+      </header>
+      <div className="main container">
+        <Hero />
+      </div>
+    </div>
   )
 }
-
-export default App

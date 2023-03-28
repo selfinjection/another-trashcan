@@ -1,0 +1,16 @@
+@import 'variables';
+
+.button {
+    display: inline-block;
+    border-radius: 5px;
+    color: white;
+    padding: 12px 24px;
+    background-color: $purple;
+}
+
+.button-ext {
+    padding-bottom: 6px;
+    color: $purple; 
+    display: inline-block;
+    border-bottom: 1px solid $purple;
+}

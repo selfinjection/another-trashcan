@@ -1,0 +1,15 @@
+.navbar {
+    height: 85px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar-container {
+    padding-right: 80px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 10px;
+    align-items: center;
+    text-align: center;
+}
