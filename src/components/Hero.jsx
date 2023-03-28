@@ -12,11 +12,11 @@ const Hero = () => {
                     </div>
                 </div>
                 <div className="hero-content_icons">
-                    <img src="/src/assets/icons/atc_logo.png"></img>
-                    <img src="/src/assets/icons/atc_logo.png"></img>
-                    <img src="/src/assets/icons/atc_logo.png"></img>
-                    <img src="/src/assets/icons/atc_logo.png"></img>
-                    <img src="/src/assets/icons/atc_logo.png"></img>
+                    <img src="/src/assets/icons/atc_logo.png" />
+                    <img src="/src/assets/icons/atc_logo.png" />
+                    <img src="/src/assets/icons/atc_logo.png" />
+                    <img src="/src/assets/icons/atc_logo.png" />
+                    <img src="/src/assets/icons/atc_logo.png" />
                 </div>
             </div>
             <div className="hero-content_image">
